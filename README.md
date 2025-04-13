@@ -1,2 +1,36 @@
-# png-image-compressor
-Küçük boyutlu ama kaliteli PNG’ler oluşturmak için geliştirdiğim basit bir araç. Hem grafik arayüzüyle hem de komut satırı üzerinden kullanılabiliyor. Çoklu dosya sıkıştırma, sürükle-bırak desteği ve ayarlanabilir sıkıştırma seviyesi gibi özellikleri var.
+# PNG Image Compressor
+
+Bu proje, PNG dosyalarının boyutunu kalite kaybı olmadan küçültmeye yarayan bir araçtır. Hem grafik arayüz (GUI) hem de komut satırı (CLI) desteği sunar.
+
+## Özellikler
+- PNG dosyalarını optimize ederek boyutlarını küçültür  
+- Aynı anda birden fazla dosyayı işleyebilir  
+- Basit ve kullanıcı dostu grafik arayüz  
+- Komut satırından da kullanılabilir  
+- Sürükle-bırak desteği
+
+## Kurulum
+
+pip install pillow pyqt6
+
+
+## Kullanım
+
+### Grafik Arayüz:
+
+python compressor.py
+
+
+### Komut Satırı:
+
+python compressor.py input_folder_or_files -o output_folder -l 6
+
+
+- `-o`: Çıktı klasörü belirtir  
+- `-l`: Sıkıştırma seviyesi (1–9)  
+- `-r`: Klasörleri alt klasörlerle birlikte tarar
+
+## Gereksinimler
+- Python 3
+- Pillow
+- PyQt6
