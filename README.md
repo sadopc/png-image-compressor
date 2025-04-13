@@ -18,12 +18,12 @@ pip install pillow pyqt6
 
 ### Grafik Arayüz:
 
-python compressor.py
+python compression.py
 
 
 ### Komut Satırı:
 
-python compressor.py input_folder_or_files -o output_folder -l 6
+python compression.py input_folder_or_files -o output_folder -l 6
 
 
 - `-o`: Çıktı klasörü belirtir  
